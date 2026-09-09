@@ -14,7 +14,7 @@ Gemini request is intercepted.
 ## Install and configure
 
 ```sh
-npm ci
+npm install
 cp .env.example .env
 ```
 

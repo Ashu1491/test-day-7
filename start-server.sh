@@ -11,7 +11,7 @@ if ! command -v npm >/dev/null 2>&1; then
 fi
 
 if [[ ! -d node_modules ]]; then
-  npm ci
+  npm install
 fi
 
 VITE_BASE_PATH="${VITE_BASE_PATH:-/}" npm run build
